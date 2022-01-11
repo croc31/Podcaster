@@ -1,12 +1,19 @@
 .headerContainer{
     background: var(--white);
-    height: 6.5rem;
+    height: 4.5rem;
+    
 
     display: flex;
     align-items: center;
 
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
     border-bottom: 1px solid var(--gray-100);
+
+    img{
+        &:hover{
+            cursor: pointer;
+        }
+    }
 
     p{
         margin-left: 2rem;
